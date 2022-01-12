@@ -6,3 +6,83 @@
 body {
   font-family: "Open San", sans-serif;
 }
+
+/* ========================== HEADER =========================== */
+.line {
+  background-color: #117050;
+  width: 100%;
+  height: 10px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header-left img {
+  width: 64px;
+  height: auto;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right--search {
+  border: solid 1px #999999;
+  padding-right: 10px;
+}
+
+.header-right--search form {
+  display: flex;
+  align-items: center;
+}
+
+.header-right--search input {
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  width: 100%;
+  max-width: 250px;
+}
+
+.header-right--search button {
+  border: none;
+  background: transparent;
+}
+
+.header-right--search button img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.header-right--menu {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.header-right--menu img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+/* ============================================================= */
+/* ========================== HEADER =========================== */
+/* ============================================================= */
+/* ========================== HEADER =========================== */
+/* ============================================================= */
+/* ========================== HEADER =========================== */
+/* ============================================================= */
+/* ========================== HEADER =========================== */
+/* ============================================================= */
