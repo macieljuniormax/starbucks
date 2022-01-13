@@ -110,9 +110,38 @@ body {
   margin-left: 40px;
 }
 /* ============================================================= */
-/* ========================== HEADER =========================== */
+/* ========================== ÁREA 1 =========================== */
+.area1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "area1-content area1-image_2"
+    "area1-image_1 area1-image_2";
+}
+.area1-content {
+  grid-area: area1-content;
+  background-color: aqua;
+}
+
+.area1-image_1 {
+  grid-area: area1-image_1;
+  background-image: url("../images/");
+  background-image: url("../images/f2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.area1-image_2 {
+  grid-area: area1-image_2;
+  background-image: url("../images/f1.jpg");
+  background-position: center;
+  background-size: cover;
+}
 /* ============================================================= */
-/* ========================== HEADER =========================== */
+/* ========================== ÁREA 2 =========================== */
+/* ============================================================= */
+/* ========================== ÁREA 3 =========================== */
 /* ============================================================= */
 /* ========================== HEADER =========================== */
 /* ============================================================= */ ;
