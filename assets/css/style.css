@@ -244,7 +244,27 @@ blockquote p {
   background-position: center;
   background-size: cover;
 }
+/* ============================================================= */
+/* ========================== AREA 4 =========================== */
+.area4 {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  grid-template-areas: "area4-content area4-image";
+  background-color: #ebe9ee;
+}
+
+.area4-content {
+  grid-area: area4-content;
+  padding: 180px 80px;
+}
+
+.area4-image {
+  grid-area: area4-image;
+  background-image: url("../images/bg3.jpg");
+  background-position: left;
+  background-size: auto;
+}
+/* ============================================================= */
+/* ========================== RODAPÉ =========================== */
 
 /* ============================================================= */
-/* ========================== HEADER =========================== */
-/* ============================================================= */ ;
