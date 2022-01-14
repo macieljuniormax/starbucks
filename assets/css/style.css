@@ -161,7 +161,6 @@ cite {
 
 .area1-image_1 {
   grid-area: area1-image_1;
-  background-image: url("../images/");
   background-image: url("../images/f2.jpg");
   background-position: center;
   background-size: cover;
@@ -187,11 +186,65 @@ blockquote p {
   font-style: italic;
   display: inline-block;
 }
-
 /* ============================================================= */
 /* ========================== ÁREA 2 =========================== */
+.area2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "area2-image_2 area2-content"
+    "area2-image_2 area2-image_1";
+}
+.area2-content {
+  grid-area: area2-content;
+  padding: 80px;
+}
+
+.area2-image_1 {
+  grid-area: area2-image_1;
+  background-image: url("../images/f4.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+}
+
+.area2-image_2 {
+  grid-area: area2-image_2;
+  background-image: url("../images/f3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.area2-content--quote {
+  margin-bottom: 30px;
+}
+
+.area2-content--text {
+  line-height: 25px;
+}
+
 /* ============================================================= */
 /* ========================== ÁREA 3 =========================== */
+.area3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "area3-content area3-image_1";
+}
+.area3-content {
+  grid-area: area3-content;
+  background-image: url("../images/bg2.jpg");
+  background-position: left;
+  background-size: cover;
+  padding: 250px 80px;
+}
+
+.area3-image_1 {
+  grid-area: area3-image_1;
+  background-image: url("../images/f5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 /* ============================================================= */
 /* ========================== HEADER =========================== */
 /* ============================================================= */ ;
