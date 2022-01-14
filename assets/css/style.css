@@ -283,10 +283,37 @@ blockquote p {
 }
 /* ============================================================= */
 /* ================ LAPTOP (Menor que 1140px) ================== */
-@media (max-width: 1140px) {
+@media (min-width: 769px) and (max-width: 1140px) {
   .container {
     padding-left: 30px;
     padding-right: 30px;
+  }
+}
+/* ============================================================= */
+/* ================ TABLETS (Menor que 768px) ================== */
+@media (min-width: 426px) and (max-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .area1 {
+    grid-template-columns: 2.5fr 1.5fr;
+  }
+
+  .area2 {
+    grid-template-columns: 1.5fr 2.5fr;
+  }
+
+  .area3 {
+    grid-template-columns: 2.5fr 1.5fr;
+  }
+
+  .area5 {
+    background-image: url("../images/bg4.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
   }
 }
 /* ============================================================= */
